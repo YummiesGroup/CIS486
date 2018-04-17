@@ -1,16 +1,29 @@
-# Project 5 - Find My iPhone App Development Project
+# Project 6 - Closing Project
 
-Students will complete their own "working model" of the Find iPhone app login screen on a browser. The purpose is to match styles and screenshots, mimic basic behaviors, create a "mobile-first" site, and improve the "session expiration" message.
+For this project you will develop a crisp, clean, and functional web page deployed on GitHub pages w/ReadMe.md of the page's behavior.  
+
+Requirements:
+
+DIRECTORY - single index page, filenames, logical directories. No spaces in filenames/directories. 
+
+HTML - a full viewport (not full page) image (kind've like on https://bobikesbama.com) in grayscale or black&white, with an imported font and wording positioned on the lower-right side of the image. (Essentially this is a 'splash screen'). 
+
+CSS - all styles in the css. viewport breakpoint functionality to change the image size when the viewport shrinks. Styles must have consistent and logical naming with proper use of class and id. 
+
+JS - must use jQuery. some animation on load, an event listener to support some interaction with the user on the page. Example: Clicking on the wording makes it animate.  
+
+All code sufficiently commented to be clear of how the page is supposed to work.
+
+**additional requirments will be given on case-by-case per submisison.
 
 ## Design Approach
 
-I first searched CodePen for a JavaScript template that would display an informational message to the user. After I found the ideal message prompt that used BootStrap, I edited the message contents and styling to satsify the previous session has expired message requirement outlined on the project description GitHub page. I then proceeded to build the webpage around the message prompt template I found on GitHub. I would describe my design approach as almost puzzle-like. I would take different pieces of code from CodePen, Stack Overflow, or GitHub, and I would integrate them stylistically into my webpage.
+I first used the resource posted in the comments underneath the project information page. The resource was a CodePen that contained a template for a full viewport image (https://codepen.io/theiwaz/pen/vybjc). I then found a hamburger style menu that uses Javascript that I overlayed over the full viewport image along with a splash font in the lower-right part of the full viewport image. I also implemented a typing animation in the top right of the full viewport image that immerses the user in the overall theme of the webpage. The hamburger menu is interactable via a click event and it displays links that do not do anything.
 
 ## Built With and Resources
 
 * [CodePen](https://codepen.io/) - Code Resource and Primary Developmental Platform
 * [GitHub](https://github.com/) - Code Resource and Publishing Platform
-* [BootStrap](https://getbootstrap.com/) - Developmental Framework
 * [Stack Overflow](https://stackoverflow.com/) - Code Resource
 * [Google Chrome](https://www.google.com/chrome/) - Testing Environment
 * [Sublime Text 3](https://www.sublimetext.com/) - Text Editor
