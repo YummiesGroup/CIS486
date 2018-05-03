@@ -1,0 +1,56 @@
+body{
+  background-image: url(https://juegosrev.com/wp-content/uploads/2017/05/B1-WALL_10174.jpg?w=458&h=458);
+  background-repeat: no-repeat;
+  background-color: #ff0066; 
+  background-position: center;
+  background-attachment: fixed;
+  background-size: cover;
+}
+
+label {
+		width: 100%;
+		padding: 12px 20px;
+		margin: 8px 0;
+		display: inline-block;
+		box-sizing: border-box;
+}
+
+.box{
+    display: -webkit-flex;
+    display: flex;
+    width: 700px;
+    height: 750px;
+}
+.card {
+    background-color: cornflowerblue;
+    height: 80px;
+    margin: 10px;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    transition: 0.3s;
+    width: 60%;
+}
+button {
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px 15px;
+    margin: 50px;
+    border: none;
+    cursor: pointer;
+    width: 10%;
+    border-radius: 12px;
+    float: center;
+}
+button:hover {
+   opacity: 0.8;
+  }
+
+.container{
+  text-align: center;
+}
+.header{
+  text-align: center;
+  text-decoration: capitalize;
+  text-shadow: 3px 2px skyblue;
+  color: #ff3399;
+  font-size: 600%;
+  }
